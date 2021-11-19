@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    border: grey double 3px;
+    background-color: darkgrey;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#saw {
+    border: red solid 1px;
+    width: 215px;
+    height: 40px;
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+button {
+    width: 3rem;
+    height: 3rem;
+    border: red solid 1px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#line1, #line2, #line3, #line4, #line5 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#copy {
+    width: 20rem;
+}
